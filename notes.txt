@@ -1,0 +1,15 @@
+###  Remote access  ###
+
+Add-on: Tailscale/WireGuard
+
+Regardless of how you connect, take these basic steps once your system is running:
+    - Turn on Two-Factor Authentication (2FA): Enable this in your Home Assistant user profile immediately so a stolen password cannot grant access to your home.
+    - Avoid basic port forwarding: Never simply open port 8123 on your router to the internet without encryption (HTTPS) and a reverse proxy, as automated bots constantly scan for exposed smart home hubs.
+    - Keep backups off-device: Set up automated backups to Google Drive or a local NAS so you can recover quickly if the SSD ever fails.
+
+
+
+###  Usefull websites  ###
+
+Weather forcasat API:   https://open-meteo.com/en/docs
+Energy price history:   https://www.energidataservice.dk/buildreport
